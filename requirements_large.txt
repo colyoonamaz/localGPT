@@ -22,3 +22,5 @@ scipy
 keras
 pygame
 lightgbm
+jupyterlab
+notebook
