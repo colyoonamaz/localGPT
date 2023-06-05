@@ -1,4 +1,4 @@
-name: Python CI
+name: Python CI1
 
 on: workflow_dispatch
 jobs:
@@ -13,4 +13,4 @@ jobs:
           python-version: '3.x'
           architecture: 'x64'
       - name: Set python dependencies
-        run: pip install -r requirements.txt && python ingest.py --device_type cpu
+        run: pip install -r requirements.txt
