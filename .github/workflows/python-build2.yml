@@ -13,4 +13,4 @@ jobs:
           python-version: '3.x'
           architecture: 'x64'
       - name: Set python dependencies
-        run: pip install -r requirements.txt -q && python ingest.py --device_type cpu
+        run: pip install -r requirements_large.txt -q
