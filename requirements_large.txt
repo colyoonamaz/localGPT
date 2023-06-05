@@ -21,3 +21,4 @@ pandas
 scipy
 keras
 pygame
+lightgbm
