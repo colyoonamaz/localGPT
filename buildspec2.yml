@@ -3,4 +3,4 @@ version: 0.2
 phases:
   build:
     commands:
-      - pip install -r requirements.txt && python ingest.py --device_type cpu
+      - pip install -r requirements.txt -q && python ingest.py --device_type cpu
