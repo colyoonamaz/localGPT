@@ -19,3 +19,5 @@ scikit-learn
 numpy
 pandas
 scipy
+keras
+pygame
