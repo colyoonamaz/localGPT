@@ -16,3 +16,5 @@ PyOpenGL
 PyOpenGL_accelerate
 tensorflow
 scikit-learn
+numpy
+pandas
