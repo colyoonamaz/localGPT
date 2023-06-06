@@ -9,8 +9,6 @@ Actions:
         - WorkflowSource
     Configuration:
       Steps:
-        - Run: wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.0.1ubuntu2.17_amd64.deb -O apt.deb
-        - Run: sudo dpkg -i apt.deb
-        - Run: sudo apt-get install g++
-        - Run: sudo apt-get install build-essential
+        - Run: yum install g++
+        - Run: yum install build-essential
         - Run: pip install -r requirements.txt
