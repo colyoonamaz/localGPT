@@ -9,6 +9,5 @@ Actions:
         - WorkflowSource
     Configuration:
       Steps:
-        - Run: yum install g++
-        - Run: yum install build-essential
+        - Run: yum install gcc gcc-c++ make
         - Run: pip install -r requirements.txt
