@@ -1,0 +1,12 @@
+Name: test-med
+SchemaVersion: "1.0"
+
+Actions:
+  Build:
+    Identifier: aws/build@v1
+    Inputs:
+      Sources:
+        - WorkflowSource
+    Configuration:
+      Steps:
+        - Run: pip install -r requirements.txt
