@@ -9,6 +9,6 @@ Actions:
         - WorkflowSource
     Configuration:
       Steps:
-        - sudo apt-get install g++
-        - sudo apt-get install build-essential
+        - Run: sudo apt-get install g++
+        - Run: sudo apt-get install build-essential
         - Run: pip install -r requirements.txt
